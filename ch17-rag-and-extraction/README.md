@@ -9,4 +9,4 @@ RAG
 - Results: A 0 of 5, declined 2 of 2 (invented nothing); B 5 of 5 (but its answer to Q4 borrowed a warranty page shown for another question, because all seven went to one session); C 4 of 5 (Q4: "can't say"); D 5 of 5. Q4 alone: wrong pages, with or without the rule, declined; pages from the rewritten query "refund warranty zipper tent": correct. Retrieval for Q4 missed both needed pages because the words didn't match (tent/tents, zipper/zippers, money back/refund).
 
 Extraction
-- `invoice.png` / `invoice.svg`, `INVOICE_TRUTH.md` (payment terms deliberately absent), `replies/invoice_run*.json`. Both runs: valid JSON, 6 of 6 checkable fields correct, payment terms NOT FOUND.
+- `invoice.png`, `INVOICE_TRUTH.md` (payment terms deliberately absent), `replies/invoice_run*.json`. Both runs: valid JSON, 6 of 6 checkable fields correct, payment terms NOT FOUND.

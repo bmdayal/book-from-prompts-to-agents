@@ -1,4 +1,4 @@
-"""Five checks, written before any run. Usage: python3 check_average.py replies/plain_1.py
+"""Five checks, written before any run. Usage: python3 check_average.py plain.py
 Each reply file holds only the AI's code. Prints PASS/FAIL per check and a score out of 5."""
 import sys, runpy
 ns = runpy.run_path(sys.argv[1])
