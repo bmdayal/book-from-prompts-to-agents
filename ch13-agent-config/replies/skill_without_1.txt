@@ -1,0 +1,23 @@
+Staged change 1
+
+Fix off-by-one in truncate
+
+truncate() sliced to max - 1 characters and then appended the ellipsis, so truncated strings came out one character shorter than the limit allows. Slice to max instead, so the kept text is exactly max characters before the ellipsis.
+
+Staged change 2
+
+Add status filter to orders list and fix small typos
+
+listOrders now reads an optional `status` query parameter and returns only matching orders. Without it, all orders are returned as before.
+
+Also included are two unrelated cleanups:
+- Fix the "npm instal" typo in the README.
+- Rename the misspelled `ttl` prop on Header to `title`.
+
+Staged change 3
+
+Cache user profiles for 5 minutes to stay under API rate limit
+
+The upstream profile API allows 60 requests per minute, so fetching a profile on every call risks hitting that limit. Add a small in-memory cache (src/cache.js) with a 5-minute TTL, and have getProfile check it before calling fetchProfile and store the result afterward.
+
+Add a test that a stored value is returned by getCached.

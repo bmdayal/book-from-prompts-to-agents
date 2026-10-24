@@ -1,0 +1,1 @@
+Warranty. Tents and sleeping bags have a 2-year warranty against defects in materials and workmanship, such as broken zippers and seam failures. If a covered item fails, we repair it or send a replacement. The warranty does not cover damage from misuse or normal wear.

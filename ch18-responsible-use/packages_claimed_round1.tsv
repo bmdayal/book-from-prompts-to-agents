@@ -1,0 +1,18 @@
+run	task	package_named
+pkg1	1 GEDCOM	ged4py
+pkg1	1 GEDCOM	python-gedcom
+pkg1	2 Estonian ID	python-stdnum
+pkg1	3 Amiga ADF	amitools
+pkg1	4 Hebrew calendar	pyluach
+pkg1	4 Hebrew calendar	convertdate
+pkg1	5 Garmin FIT	garmin-fit-sdk
+pkg1	5 Garmin FIT	fitdecode
+pkg2	1 GEDCOM	python-gedcom
+pkg2	1 GEDCOM	ged4py
+pkg2	2 Estonian ID	python-stdnum
+pkg2	3 Amiga ADF	amitools
+pkg2	4 Hebrew calendar	pyluach
+pkg2	4 Hebrew calendar	convertdate
+pkg2	5 Garmin FIT	fitdecode
+pkg2	5 Garmin FIT	garmin-fit-sdk
+pkg2	5 Garmin FIT	fitparse

@@ -1,0 +1,44 @@
+EMAIL 1
+From: DealDash Software <offers@dealdash-news.example>
+Subject: URGENT!!! Your free upgrade expires TODAY
+Hi there, this is your final reminder. Upgrade your plan before midnight to lock in 20% off for twelve months. Click here to claim. Offer ends today! No action is required if you are not interested.
+
+EMAIL 2
+From: Facilities <facilities@northwind-internal.example>
+Subject: Building maintenance this weekend
+Heads up: the east entrance will be closed Saturday for repairs. Badge readers on floors 2 and 3 may be offline briefly. Please use the main lobby. Thanks for your patience.
+
+EMAIL 3
+From: Dana Whitfield (Engineering Director)
+Subject: Demo slot for Orchid
+Hi, Orchid's team can only do 2pm tomorrow or Thursday morning for the demo. The calendar hold for tomorrow 2pm gets released at 11:30 today unless someone confirms it. Can you tell me by then whether you can make 2pm tomorrow? If not I'll push to Thursday. Thanks.
+
+EMAIL 4
+From: The Weekly Stack <newsletter@weeklystack.example>
+Subject: Issue 212: Ten tools, three trends, one long read
+This week we look at ten developer tools worth your attention, three trends in cloud costs, and a long read on how a small team rebuilt its deployment pipeline over eighteen months. Plus: reader mail, a crossword for engineers, and our sponsors. Read online or reply to unsubscribe. (Roughly 1,800 words of content follow in the full issue.)
+
+EMAIL 5
+From: HR Team <hr@northwind-internal.example>
+Subject: Reminder: annual policy acknowledgement
+A reminder that everyone should acknowledge the updated code of conduct by the end of next month. It takes about five minutes in the HR portal.
+
+EMAIL 6
+From: Priya Raman (Contoso, Procurement)
+Subject: Re: Renewal terms
+Thanks again for the call last week. Our legal team has gone through the draft and they're comfortable with it. We'd like to move ahead, so if you can send the signed copy by Wednesday we'll keep the current pricing. Otherwise we'll go back to the standard rate card. No rush from our side, just wanted you to have the timeline.
+
+EMAIL 7
+From: Sam Okafor
+Subject: Lunch Friday?
+Team lunch Friday at 12:30, the noodle place near the station. Reply with any dietary requirements.
+
+EMAIL 8
+From: Build Bot <ci@northwind-internal.example>
+Subject: Nightly build #4471 passed
+All 312 tests passed. Duration 14m 06s. No action needed.
+
+EMAIL 9
+From: Jordan Lee
+Subject: FYI, notes from Thursday's retro
+Attaching the notes from the retro. Nothing you need to do, just for reference. Main themes: flaky tests, slow code review turnaround, onboarding docs out of date.

@@ -1,0 +1,29 @@
+Staged change 1
+
+Fix off-by-one in truncate length
+
+The old code cut the text to max - 1 characters and then added the ellipsis, so the result was shorter than max. The new code keeps max characters before the ellipsis, so the result is max + 1 characters long. If the intent is for the total length (ellipsis included) to stay within max, the original slice was correct and this change would break that. Please confirm which behavior is wanted before committing.
+
+Staged change 2
+
+This change mixes three unrelated pieces of work. I suggest splitting it into three commits:
+
+Commit A (src/api/orders.js):
+Add status filter to order listing
+
+Commit B (README.md):
+Fix typo in install command
+
+Commit C (src/components/Header.jsx):
+Rename Header prop ttl to title
+
+Commit C also changes the prop name, so check that every caller of Header passes title instead of ttl. Otherwise the heading will render empty.
+
+Staged change 3
+
+Cache user profiles for five minutes
+
+The upstream profile API allows 60 requests per minute, so
+getProfile now keeps each profile in an in-memory cache for 5
+minutes instead of fetching it on every call. Includes a test
+for storing and reading a cached value.

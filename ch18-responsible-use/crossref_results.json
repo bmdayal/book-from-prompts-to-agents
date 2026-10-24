@@ -1,0 +1,44 @@
+{
+ "unique_dois": {
+  "10.1207/s15516709cog1302_1": {
+   "exists": true,
+   "title": "Self\u2010Explanations: How Students Study and Use Examples in Learning to Solve Problems",
+   "year": 1989
+  },
+  "10.1016/0364-0213(94)90016-7": {
+   "exists": true,
+   "title": "Eliciting self-explanations improves understanding,",
+   "year": 1994
+  },
+  "10.1080/08993400802114581": {
+   "exists": true,
+   "title": "Debugging: a review of the literature from an educational perspective",
+   "year": 2008
+  },
+  "10.1145/1352135.1352191": {
+   "exists": true,
+   "title": "Debugging",
+   "year": 2008
+  },
+  "10.1145/1041624.1041673": {
+   "exists": true,
+   "title": "A multi-national study of reading and tracing skills in novice programmers",
+   "year": 2004
+  },
+  "10.1207/s15516709cog1803_3": {
+   "exists": true,
+   "title": "Eliciting Self\u2010Explanations Improves Understanding",
+   "year": 1994
+  },
+  "10.1016/j.cedpsych.2013.06.001": {
+   "exists": true,
+   "title": "The relative benefits of learning by teaching and teaching expectancy",
+   "year": 2013
+  },
+  "10.1016/j.tics.2006.08.004": {
+   "exists": true,
+   "title": "The structure and function of explanations",
+   "year": 2006
+  }
+ }
+}

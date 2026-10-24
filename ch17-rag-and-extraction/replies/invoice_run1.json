@@ -1,0 +1,15 @@
+{
+  "invoice_number": "INV-30417",
+  "date": "12 Sept 2026",
+  "vendor": {"name": "Fjord Supply Co.", "address": "48 Harbor Lane, Tromso Falls, WA 98001"},
+  "bill_to": "Northwind Outfitters",
+  "line_items": [
+    {"description": "Trail stove", "quantity": 2, "unit_price": "$89.00", "total": "$178.00"},
+    {"description": "Fuel canisters", "quantity": 10, "unit_price": "$12.50", "total": "$125.00"},
+    {"description": "Tent repair kit", "quantity": 4, "unit_price": "$38.00", "total": "$152.00"}
+  ],
+  "subtotal": "$455.00",
+  "tax": "$27.30 (6%)",
+  "total_amount_due": "$482.30",
+  "payment_terms": "NOT FOUND"
+}

@@ -1,0 +1,124 @@
+openapi: 3.0.3
+info:
+  title: JWT Authentication API
+  version: 1.0.0
+  description: Registration endpoint of the JWT authentication module.
+servers:
+  - url: http://localhost:3000
+paths:
+  /auth/register:
+    post:
+      summary: Register a new user
+      description: >
+        Validates input, hashes the password with bcrypt, stores the user,
+        and returns the user profile plus a signed JWT. The email is
+        trimmed and lowercased before storage.
+      operationId: registerUser
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequest'
+            example:
+              email: jane@example.com
+              password: password123
+              name: Jane
+      responses:
+        '201':
+          description: User created.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RegisterResponse'
+        '400':
+          description: Invalid input or malformed JSON.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationErrorResponse'
+              example:
+                error: Validation failed
+                details:
+                  - field: password
+                    message: Password must be 8 to 72 characters
+        '409':
+          description: Email already registered.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Email already registered
+        '500':
+          description: Unexpected server or database error.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Internal server error
+components:
+  schemas:
+    RegisterRequest:
+      type: object
+      required: [email, password]
+      properties:
+        email:
+          type: string
+          format: email
+          maxLength: 254
+        password:
+          type: string
+          format: password
+          minLength: 8
+          maxLength: 72
+          description: Must contain at least one letter and one digit.
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        email:
+          type: string
+          format: email
+        name:
+          type: string
+          nullable: true
+    RegisterResponse:
+      type: object
+      required: [user, token]
+      properties:
+        user:
+          $ref: '#/components/schemas/User'
+        token:
+          type: string
+          description: Signed JWT (claims sub = user id, email; expires per server config, default 1h).
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+    ValidationErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+        details:
+          type: array
+          items:
+            type: object
+            properties:
+              field:
+                type: string
+              message:
+                type: string

@@ -1,0 +1,29 @@
+EMAIL 1
+From: Marcus Chen
+Subject: Orchid numbers
+Hi, whenever you get a moment, I'd love your read on the Orchid forecast. No pressure on timing. Thanks, Marcus
+
+EMAIL 2
+From: Alex Reyes (TalentBridge Recruiting)
+Subject: Quick call this week?
+Hi, I came across your profile and have a role I think you'd be great for. Do you have 15 minutes this week for a call? Let me know what works. Alex
+
+EMAIL 3
+From: Taylor Brooks
+Subject: Reference request
+Hi, I'm applying for a job and wondered if you'd be willing to be a reference. They'd probably call sometime in the next few weeks. Thanks so much! Taylor
+
+EMAIL 4
+From: The Weekly Stack <newsletter@weeklystack.example>
+Subject: Issue 212: Ten tools, three trends, one long read
+This week we look at ten developer tools worth your attention and three trends in cloud costs. Read online or reply to unsubscribe.
+
+EMAIL 5
+From: HR Team <hr@northwind-internal.example>
+Subject: Reminder: annual policy acknowledgement
+A reminder that everyone should acknowledge the updated code of conduct by the end of next month. It takes about five minutes in the HR portal.
+
+EMAIL 6
+From: Build Bot <ci@northwind-internal.example>
+Subject: Nightly build #4471 passed
+All 312 tests passed. No action needed.

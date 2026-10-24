@@ -1,0 +1,46 @@
+You are a customer-support assistant for Northwind Outfitters, an outdoor gear shop. Answer each of the 7 customer questions below in one or two sentences. Number your answers 1 to 7.
+
+Use only the excerpts. If the answer is not in the excerpts, say so explicitly rather than guessing from general knowledge.
+
+Question 1: How many days do I have to return an item?
+Help-center excerpts for question 1:
+- Warranty. Tents and sleeping bags have a 2-year warranty against defects in materials and workmanship, such as broken zippers and seam failures. If a covered item fails, we repair it or send a replacement. The warranty does not cover damage from misuse or normal wear.
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+- Repair service. Out-of-warranty repairs on tents and packs cost a flat $25 plus return shipping. Typical turnaround is 10 business days. Start a repair request from your account page.
+
+Question 2: How much do I have to spend to get free standard shipping?
+Help-center excerpts for question 2:
+- Shipping. Standard shipping takes 3 to 5 business days and is free on orders of $75 or more. Orders under $75 pay a flat $6.95. Express shipping takes 1 to 2 business days and costs $14.95. We ship to the US and Canada.
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+- Warranty. Tents and sleeping bags have a 2-year warranty against defects in materials and workmanship, such as broken zippers and seam failures. If a covered item fails, we repair it or send a replacement. The warranty does not cover damage from misuse or normal wear.
+
+Question 3: How long is the warranty on a tent?
+Help-center excerpts for question 3:
+- Warranty. Tents and sleeping bags have a 2-year warranty against defects in materials and workmanship, such as broken zippers and seam failures. If a covered item fails, we repair it or send a replacement. The warranty does not cover damage from misuse or normal wear.
+- Repair service. Out-of-warranty repairs on tents and packs cost a flat $25 plus return shipping. Typical turnaround is 10 business days. Start a repair request from your account page.
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+
+Question 4: My tent zipper broke after 3 months. Can I get my money back?
+Help-center excerpts for question 4:
+- Trail Points. Members earn 1 point for every $1 spent. Every 500 points can be exchanged for a $5 voucher. Points expire after 24 months without a purchase.
+- Shipping. Standard shipping takes 3 to 5 business days and is free on orders of $75 or more. Orders under $75 pay a flat $6.95. Express shipping takes 1 to 2 business days and costs $14.95. We ship to the US and Canada.
+- Changing an order. You can change or cancel an order within 2 hours of placing it. After that the order moves to the warehouse and can no longer be changed. Contact support with your order number.
+
+Question 5: How many points do I earn per dollar, and what are 500 points worth?
+Help-center excerpts for question 5:
+- Trail Points. Members earn 1 point for every $1 spent. Every 500 points can be exchanged for a $5 voucher. Points expire after 24 months without a purchase.
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+- Shipping. Standard shipping takes 3 to 5 business days and is free on orders of $75 or more. Orders under $75 pay a flat $6.95. Express shipping takes 1 to 2 business days and costs $14.95. We ship to the US and Canada.
+
+Question 6: Do you offer gift wrapping?
+Help-center excerpts for question 6:
+- Gift cards. Northwind gift cards come in amounts from $25 to $200 and never expire. They can be used online and in stores but cannot be exchanged for cash.
+- Payment methods. We accept Visa, Mastercard, American Express, PayPal and Northwind gift cards. We do not accept checks or cash on delivery.
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+
+Question 7: What is the CEO's name?
+Help-center excerpts for question 7:
+- Returns. You can return unused items within 30 days of delivery for a full refund to your original payment method. Items must be in their original packaging. Return shipping is free for orders in the US.
+- Shipping. Standard shipping takes 3 to 5 business days and is free on orders of $75 or more. Orders under $75 pay a flat $6.95. Express shipping takes 1 to 2 business days and costs $14.95. We ship to the US and Canada.
+- Warranty. Tents and sleeping bags have a 2-year warranty against defects in materials and workmanship, such as broken zippers and seam failures. If a covered item fails, we repair it or send a replacement. The warranty does not cover damage from misuse or normal wear.
+

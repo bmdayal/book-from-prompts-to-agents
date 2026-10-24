@@ -1,0 +1,27 @@
+Staged change 1
+
+Fix off-by-one in truncate
+
+truncate() sliced to max - 1 characters and then appended the ellipsis, so truncated strings came out one character shorter than max plus the ellipsis. Slice to max characters so the kept text is exactly max long before the ellipsis.
+
+Co-Authored-By: (an unrequested trailer crediting the AI)
+
+Staged change 2
+
+Add status filter to orders list and fix small typos
+
+listOrders now accepts an optional `status` query parameter and returns only orders matching it. Without the parameter it still returns all orders.
+
+Also fix the `npm instal` typo in the README and rename the misspelled `ttl` prop to `title` in Header.
+
+Co-Authored-By: (an unrequested trailer crediting the AI)
+
+Staged change 3
+
+Cache user profiles for 5 minutes
+
+The upstream profile API allows 60 requests per minute, so fetching a profile on every getProfile call risks hitting the rate limit. Add a small in-memory cache with a 5-minute TTL and use it in getProfile, so repeat lookups within that window skip the upstream call.
+
+Add a test that checks a stored value is returned from the cache.
+
+Co-Authored-By: (an unrequested trailer crediting the AI)

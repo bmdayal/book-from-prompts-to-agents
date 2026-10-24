@@ -1,0 +1,36 @@
+2026-01|Backpack|1200.0
+2026-01|Headphones|900.0
+2026-01|Desk Lamp|400.0
+2026-02|Headphones|2160.0
+2026-02|Backpack|480.0
+2026-02|Desk Lamp|450.0
+2026-03|Headphones|1530.0
+2026-03|Backpack|540.0
+2026-03|Desk Lamp|475.0
+2026-04|Backpack|840.0
+2026-04|Headphones|720.0
+2026-04|Desk Lamp|500.0
+2026-05|Backpack|900.0
+2026-05|Desk Lamp|450.0
+2026-05|Mouse|400.0
+2026-06|Headphones|1170.0
+2026-06|Backpack|780.0
+2026-06|Desk Lamp|325.0
+2026-07|Backpack|1080.0
+2026-07|Headphones|990.0
+2026-07|Desk Lamp|250.0
+2026-08|Headphones|1170.0
+2026-08|Backpack|660.0
+2026-08|Desk Lamp|500.0
+2026-09|Headphones|3510.0
+2026-09|Desk Lamp|525.0
+2026-09|Backpack|480.0
+2026-10|Headphones|990.0
+2026-10|Mouse|460.0
+2026-10|Desk Lamp|425.0
+2026-11|Backpack|1020.0
+2026-11|Headphones|810.0
+2026-11|Desk Lamp|400.0
+2026-12|Backpack|900.0
+2026-12|Headphones|450.0
+2026-12|Mouse|440.0

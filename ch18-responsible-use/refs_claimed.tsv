@@ -1,0 +1,20 @@
+run	n	claimed_title	doi
+plain1	1	Self-explanations: How students study and use examples in learning to solve problems	10.1207/s15516709cog1302_1
+plain1	2	Eliciting self-explanations improves understanding	10.1016/0364-0213(94)90016-7
+plain1	3	Debugging: A review of the literature from an educational perspective	10.1080/08993400802114581
+plain1	4	Debugging: The good, the bad, and the quirky - a qualitative analysis of novices' strategies	10.1145/1352135.1352191
+plain1	5	A multi-national study of reading and tracing skills in novice programmers	10.1145/1041624.1041673
+plain2	1	Self-explanations: How students study and use examples in learning to solve problems	10.1207/s15516709cog1302_1
+plain2	2	Eliciting self-explanations improves understanding	10.1207/s15516709cog1803_3
+plain2	3	The relative benefits of learning by teaching and teaching expectancy	10.1016/j.cedpsych.2013.06.001
+plain2	4	Debugging: The good, the bad, and the quirky, a qualitative analysis of novices' strategies	10.1145/1352135.1352191
+plain2	5	Debugging: A review of the literature from an educational perspective	10.1080/08993400802114581
+honest1	1	Self-explanations: How students study and use examples in learning to solve problems	10.1207/s15516709cog1302_1
+honest1	2	Eliciting self-explanations improves understanding	10.1207/s15516709cog1803_3
+honest1	3	The structure and function of explanations	10.1016/j.tics.2006.08.004
+honest1	4	The relative benefits of learning by teaching and teaching expectancy	10.1016/j.cedpsych.2013.06.001
+honest1	5	Debugging: The good, the bad, and the quirky - a qualitative analysis of novices' strategies	10.1145/1352135.1352191
+honest2	1	Self-explanations: How students study and use examples in learning to solve problems	10.1207/s15516709cog1302_1
+honest2	2	Eliciting self-explanations improves understanding	10.1016/0364-0213(94)90016-7
+honest2	3	The relative benefits of learning by teaching and teaching expectancy	10.1016/j.cedpsych.2013.06.001
+honest2	4	Debugging: The good, the bad, and the quite ugly	10.1145/1352135.1352191

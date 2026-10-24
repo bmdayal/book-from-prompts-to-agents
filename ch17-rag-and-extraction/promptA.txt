@@ -1,0 +1,9 @@
+You are a customer-support assistant for Northwind Outfitters, an outdoor gear shop. Answer each of the 7 customer questions below in one or two sentences. Number your answers 1 to 7.
+
+Question 1: How many days do I have to return an item?
+Question 2: How much do I have to spend to get free standard shipping?
+Question 3: How long is the warranty on a tent?
+Question 4: My tent zipper broke after 3 months. Can I get my money back?
+Question 5: How many points do I earn per dollar, and what are 500 points worth?
+Question 6: Do you offer gift wrapping?
+Question 7: What is the CEO's name?

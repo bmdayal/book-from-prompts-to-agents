@@ -1,0 +1,1 @@
+Run 2 added a note after the JSON: the footer only says 'Thank you for your business.' No payment terms (such as net 30) or due date appear on the invoice.

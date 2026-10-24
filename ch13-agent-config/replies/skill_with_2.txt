@@ -1,0 +1,35 @@
+Staged change 1
+
+Keep max characters before truncation ellipsis
+
+truncate() dropped one character too many before appending the
+ellipsis. Keep the first max characters, then append it. The result
+can now be max + 1 characters long, so callers that need a hard limit
+should pass a smaller max.
+
+Staged change 2
+
+This change mixes three unrelated pieces of work: an orders API feature, a README typo fix, and a component prop rename. Split it into three commits, for example by staging each file separately with `git add -p`.
+
+Commit A (src/api/orders.js):
+
+Add status filter to orders listing
+
+Commit B (README.md):
+
+Fix typo in install command
+
+Commit C (src/components/Header.jsx):
+
+Rename Header ttl prop to title
+
+None of these needs a body. For commit C, check that every caller passes `title` instead of `ttl`, and include those caller updates in the same commit if there are any.
+
+Staged change 3
+
+Cache user profiles for five minutes
+
+The upstream profile API allows 60 requests per minute. Fetching a
+profile on every call risks hitting that limit, so keep each profile
+in an in-memory cache for 5 minutes. getProfile() now checks the cache
+first and stores fresh results. Add a test for the cache round trip.

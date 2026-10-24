@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sam-budget",
+    "reader": "a busy senior colleague",
+    "email": "Hi Sam, I wanted to reach out because I have been meaning to ask about the thing we discussed last week regarding the budget numbers for Q3. I know you are busy, but if you could maybe take a look at the attached spreadsheet when you get a chance that would be really great. No rush at all, although actually I do need your comments by Friday because the board meets on Monday. Thanks so much, and sorry again for the short notice!",
+    "must_keep": [
+      "Q3",
+      "Friday",
+      "Monday"
+    ],
+    "reply": "Hi Sam,\n\nCould you review the attached Q3 budget spreadsheet and send me your comments by Friday? The board meets on Monday.\n\nSorry for the short notice, and thank you.",
+    "reply_v1_1": "Hi Sam,\n\nCould you review the attached Q3 budget spreadsheet we discussed last week? I need your comments by Friday, as the board meets on Monday. Sorry for the short notice, and thank you.\n\nSoftening removed: \"I wanted to reach out because I have been meaning to ask\", \"I know you are busy\", \"if you could maybe\", \"when you get a chance\", \"that would be really great\", \"No rush at all\""
+  },
+  {
+    "id": "priya-invoice",
+    "reader": "the accounts payable contact at a client company (polite and firm)",
+    "email": "Hi Priya, I hope you are well and that the week has been kind to you so far! I am just writing to check in on the invoice from March, which is INV-2041 for $1,850. I think it has now been about 3 weeks overdue, and my manager has started asking me about it, so I thought I had better follow up. Could you let me know when the payment will be going out? If there happens to be a problem with the invoice, it would be really helpful if you could tell me by Wednesday so that I can sort it out. Sorry to chase, I know it has probably just slipped through the cracks! Thank you so much for your help.",
+    "must_keep": [
+      "INV-2041",
+      "$1,850",
+      "3 weeks",
+      "Wednesday",
+      "March"
+    ],
+    "reply": "Hi Priya,\n\nI'm following up on invoice INV-2041 for $1,850 from March, which is now about 3 weeks overdue. Could you let me know when the payment will be going out?\n\nIf there is a problem with the invoice, please tell me by Wednesday so I can resolve it.\n\nThank you for your help.",
+    "reply_v1_1": "Hi Priya,\n\nInvoice INV-2041 for $1,850, issued in March, is now about 3 weeks overdue, and my manager has started asking about it.\n\nCould you let me know when the payment will go out? If there is a problem with the invoice, please tell me by Wednesday so I can resolve it.\n\nThank you for your help.\n\nSoftening removed: \"I hope you are well and that the week has been kind to you so far\", \"I am just writing to check in\", \"I think\", \"I thought I had better follow up\", \"If there happens to be\", \"it would be really helpful if you could\", \"Sorry to chase, I know it has probably just slipped through the cracks\", \"so much\""
+  },
+  {
+    "id": "team-notices",
+    "reader": "a whole team that skims",
+    "email": "Hi team, I hope you all had a great weekend! I just wanted to let everyone know that the office will be closed next Friday, 13 November, for the building's electrical inspection, so please make sure that you take your laptops home with you on Thursday 12 November. Also, and this is really just a gentle reminder, the expense reports for October are due by the end of this week, which is Friday 6 November, so please get them over to Dana before then if you can. Thanks so much everyone, and have a lovely week!",
+    "must_keep": [
+      "13 November",
+      "Thursday 12 November",
+      "6 November",
+      "Dana",
+      "laptops",
+      "expense reports"
+    ],
+    "reply": "Hi team,\n\nThe office will be closed next Friday, 13 November, for the building's electrical inspection. Please take your laptops home on Thursday 12 November.\n\nAlso, a reminder: October expense reports are due by the end of this week, Friday 6 November. Please send them to Dana before then.\n\nThanks, and have a great week!",
+    "reply_v1_1": "Hi team,\n\nThe office will be closed next Friday, 13 November, for the building's electrical inspection. Please take your laptops home on Thursday 12 November.\n\nAlso, October expense reports are due by the end of this week, Friday 6 November. Please send them to Dana before then.\n\nThanks, and have a good week!\n\nSoftening removed: \"I hope you all had a great weekend\", \"I just wanted to let everyone know\", \"this is really just a gentle reminder\", \"if you can\", \"make sure that\", \"Thanks so much everyone\", \"lovely\""
+  }
+]
